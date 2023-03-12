@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <style>
+     
+        form{
+            
+            position:absolute;
+            border-radius:25px;
+            z-index:1;
+            width:30%;
+            height: 280px;
+            text-align: center;
+            top:200px;
+          margin-left:450px;
+        }
+        label{
+          font-size: larger;
+          font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <script src="form2.js"> </script>
+   
+</head>
+
+<body>
+    
+    <form action="" name="register" method="post" onsubmit="form()">
+        <fieldset style="border-radius:10px;">
+            <legend style="text-align: center; font-size: xx-large; font-weight: bolder;color:rgb(82, 89, 234)">Login Page</legend>
+            <label>User Name :</label>
+            <input type="text" name="usern" placeholder=" enter username">
+            <br><br>
+            <label>Password :</label>
+            <input type="password" name="pw" placeholder="enter  password">
+            <br><br>
+            <label> Confirm Password :</label>
+            <input type="password" name="checkpw" placeholder="enter confirm password">
+            <br><br>
+            <input type="submit"  value="Sign In">
+            <input type="reset" value="Cancel" class="button">
+        </fieldset>
+    </form>
+</body>
+</html>
